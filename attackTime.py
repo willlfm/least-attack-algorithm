@@ -87,9 +87,9 @@ def min_atk_recursive(monsters, blood, triggered):
     return suffix_order, min_atk, new_triggered
 
 
-# monsters = [1, 1, 1, 1, 6]
-monsters = [1, 5, 6, 7]
-# atk_order = [1, 1, 2, 0, 3]
+# monsters = [1, 4, 4, 4]
+# monsters = [1, 5, 6, 7]
+# atk_order = [0, 1, 2, 2, 3, 3, 3]
 # triggered = [1, 1, 1, 1, 1]
-print(min_through_violence(monsters))
+# print(min_through_violence(monsters))
 # print(atk_time(monsters, atk_order))
