@@ -15,5 +15,4 @@ def minAttacks(monsters):
 
 
 monsters = [1, 1, 1, 1, 5]  # 怪物血量数组
-# monsters = [1, 6]
 print(minAttacks(monsters))  # 输出最少攻击次数
