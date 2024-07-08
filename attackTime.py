@@ -1,5 +1,5 @@
 # import sys
-# sys.setrecursionlimit(100000)  # 将递归深度限制设置为1500
+# sys.setrecursionlimit(1500)  # 将递归深度限制设置为1500
 
 def atk_time(monsters, atk_order):
     blood = monsters.copy()
